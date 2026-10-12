@@ -1,0 +1,24 @@
+{
+  "name": "mid-termnavchallenge",
+  "version": "1.0.0",
+  "description": "Midterm for N315",
+  "homepage": "https://github.com/onxstigb/Mid-termNavChallenge#readme",
+  "bugs": {
+    "url": "https://github.com/onxstigb/Mid-termNavChallenge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onxstigb/Mid-termNavChallenge.git"
+  },
+  "license": "ISC",
+  "author": "Onesti B and Akinwale A",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "live-server": "live-server",
+    "compile-sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "dependencies": {
+    "sass": "^1.105.1"
+  }
+}
