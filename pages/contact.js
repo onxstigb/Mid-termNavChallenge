@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mid-term Nav Challenge</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="news.html">News</a>
-  <a href="contact.html">Contact</a>
-  <a href="about.html">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myNav()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-    <main>
+export default ` <main>
         <div class="content">
             <h1>Contact Us</h1>
 
@@ -61,22 +40,4 @@
 
             <p id="form-response" aria-live="polite"></p>
         </div>
-    </main>
-
-    <footer>
-        <p> 2026 Nav Challenge</p>
-    </footer>
-
-    <script src="app/app.js" defer></script>
-    <script>
-        document.getElementById("contact-form").addEventListener("submit", function(event) {
-            event.preventDefault();
-
-            document.getElementById("form-response").textContent =
-                "Thank you! Your form was submitted for this demo.";
-
-            this.reset();
-        });
-    </script>
-</body>
-</html>
+    </main>`
