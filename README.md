@@ -66,3 +66,7 @@ ISC
 Creators:
 Onesti Brookins
 Akinwale Adesakin
+
+## Links
+Web4: https://in-info-web4.luddy.indianapolis.iu.edu/~obrookin/Mid-termNavChallenge/
+Github Repo: https://github.com/onxstigb/Mid-termNavChallenge 
